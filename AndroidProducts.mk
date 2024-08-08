@@ -7,9 +7,11 @@
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/aosp_rpi4.mk \
     $(LOCAL_DIR)/aosp_rpi4_car.mk \
+    $(LOCAL_DIR)/aosp_rpi4_car_portrait.mk \
     $(LOCAL_DIR)/aosp_rpi4_tv.mk
 
 COMMON_LUNCH_CHOICES := \
     aosp_rpi4-trunk_staging-userdebug \
     aosp_rpi4_car-trunk_staging-userdebug \
+    aosp_rpi4_car_portrait-trunk_staging-userdebug \
     aosp_rpi4_tv-trunk_staging-userdebug
